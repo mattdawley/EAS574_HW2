@@ -7,11 +7,11 @@ Important notes:
 
 You must pass the pre-submission tests in order to get credit for your queries
 """
-q2c_movies = ""
-q2c_ratings = ""
-q3b = ""
-q4b = ""
-q5b = ""
+q2c_movies = "SELECT * FROM movies LIMIT 10"
+q2c_ratings = "SELECT * FROM RATINGS LIMIT 10"
+q3b = "SELECT * FROM s3_users_count WHERE num_of_reviews > 500"
+q4b = "SELECT title, num_of_reviews from s4_popular_movies ORDER BY num_of_reviews DESC LIMIT 10"
+q5b = "SELECT title, average_rating from s5_highest_stars WHERE title LIKE '%Toy%' ORDER BY average_rating DESC"
 q6b = ""
 q7b = ""
 q8b = ""
